@@ -8,15 +8,14 @@ export const useAuth = () => useContext(AuthContext);
 
 export const AuthProvider = ({ children }) => {
     const [loading, setLoading] = useState(true);
-    const [user, setUser] = useState(null);
+    const [user, setUser] = useState();
     const history = useHistory();
 
     useEffect(() => {
         auth.onAuthStateChanged((user) => {
             setUser(user);
             setLoading(false);
-
-            if (user) history.push('/chats');
+            history.push('/chats')
         })
     }, [user, history]);
 
