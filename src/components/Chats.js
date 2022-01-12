@@ -82,7 +82,7 @@ export default function Chats() {
                 </div>
 
                 <div onClick={handleLogout} className='logout-tab'>
-                    Logout
+                    Sair
                 </div>
             </div>
 
