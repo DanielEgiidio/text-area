@@ -1,6 +1,6 @@
 # Info do projeto
 
-- Funcionalidade: Text Area é uma aplicação de um Webchat, onde o usuario acessa pelo seu gmail, utilizando da autenticação do firebase, la o host poderá inserir quaisquer usuário que entrem na apliação, na conversa que ele escolher, podendo conversar em tempo real com cada uma delas e enviar fotos .
+- Funcionalidade: Text Area é uma aplicação de um Webchat, onde o usuario acessa pelo seu gmail, utilizando da autenticação do firebase, la o host poderá inserir quaisquer usuário que entrem na aplicação, na conversa que ele escolher, podendo conversar em tempo real , adicionar novos usuários ao chat e enviar fotos.
 
 - Tecnologias: O projeto foi criado utilizando ReactJs, Routing, Social Auth, Firebase, React Context, Chat Engine, e APIs Rest, fazendo uso de seus Hooks como: State, Effect, History, Ref dentre outros.
 
